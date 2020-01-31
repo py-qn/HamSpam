@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 from flask import Flask,render_template,url_for,request
 
 
-
+a= [1,2,3,6,4]
 app = Flask(__name__)
 
 @app.route('/')
